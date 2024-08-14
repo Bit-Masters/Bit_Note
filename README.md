@@ -1,6 +1,6 @@
 <center><h1>Listas de Tarefas</h1></center>
 
-<span>Um site que lista tarefas criadas pelo usuario, permitindo que nao se esqueca de nenhum item da lista de compras.</span>
+<span>Um site que lista tarefas criadas pelo usuario, permitindo que nao se esqueca de nada que o chefe pediu.</span>
 
 <br/>
 <h3>Requisitos Minimos:</h3>
