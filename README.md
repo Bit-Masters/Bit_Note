@@ -1,7 +1,7 @@
 <center><h1>Listas de Tarefas</h1></center>
 
 <span>Um site que lista tarefas criadas pelo usuario, permitindo que nao se esqueca de nada que o chefe pediu.</span>
-<span>Link para nosso projeto no <href link="https://www.figma.com/proto/oZGEE9SnAc4GdrBrmrRPMw/Bit-Note?node-id=6-2&t=piwXYxdGmV6vZQP1-1">Figma</href>.</span>
+<span>Link para nosso projeto no [Figma](https://www.figma.com/proto/oZGEE9SnAc4GdrBrmrRPMw/Bit-Note?node-id=6-2&t=piwXYxdGmV6vZQP1-1).</span>
 
 <br/>
 <h3>Requisitos Minimos:</h3>
