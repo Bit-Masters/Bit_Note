@@ -1,0 +1,55 @@
+:root{
+	/* COLORS*/
+	--Primary: #0A99FF;
+	--Secondary: #F6581F;
+
+	--bright-500: #777D82;
+	--bright-400: #94999C;
+	--bright-300: #A8ABAE;
+	--bright-200: #B9BBBD;
+	--bright-100: #D9D9D9;
+
+	--dark-500: #1F2021;
+	--dark-400: #242628;
+	--dark-300: #2F3439;
+	--dark-200: #343A40;
+	--dark-100: #3F4852;
+	
+	/*TYPE*/
+	--h1: 40px;
+	--h2: 32px;
+	--h3: 24px;
+	--sh: 12px;
+	--p: 8px;
+	--st: 6px;
+
+	/*SPACING*/
+	--spc1: 0.25rem;/*4*/
+	--spc2: 0.5rem;/*8*/
+	--spc3: 0.75rem;/*12*/
+	--spc4: 1rem;/*16*/
+	--spc5: 1.25rem;/*20*/
+	--spc6: 1.75rem;/*28*/
+	--spc7: 2.5rem;/*40*/
+	--spc8: 3.75rem;/*60*/
+	--spc9: 6.25rem;/*100*/
+	--spc10: 10rem;/*160*/
+	--spc11: 15rem;/*240*/
+
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+}
+
+body {
+	background-color: var(--dark-400);
+	color: var(--bright-100);
+	-webkit-font-smoothing: antialiased;
+} 
+
+body, input, textarea, button {
+	font: 400 1rem Inter, sans-serif;
+}
