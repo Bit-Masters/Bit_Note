@@ -25,3 +25,5 @@
 - Banco de Dados<br/>
 <br/>
 - Previsao de termino 30 dias.
+  (Inicio: 11/08/2024)
+
