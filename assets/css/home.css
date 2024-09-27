@@ -49,7 +49,7 @@
 		list-style-type: none;
 
 		li:first-child {
-			color: var(--bright-100);
+			color: var(--white);
 			margin-left: var(--spc2)
 		}
 	}
@@ -68,13 +68,57 @@
 	header {
 		display: flex;
 		justify-content: space-between;
+		padding: var(--spc4);
+
+		button{
+			border: 1px solid #B9BBBD;
+			background-color: transparent;
+			color: var(--bright-100);
+			border-radius: 99px;
+			height: 32px;
+			width: 32px;
+		}
+		.AddList {
+			color: var(--white);
+			font-weight: bold;
+			font-size: 16px;
+			padding: var(--spc2) var(--spc3);
+			background-color: var(--Primary);
+
+			border: none;
+			width: auto;
+			height: auto;
+		}
 	}
 }
 
+.ListContainer {
+	padding: var(--spc1);
+	display: grid;
+	grid-template-columns: repeat(4, 272px);
+	gap: var(--spc6);
+	
+
+	div{
+		padding: var(--spc4) var(--spc5);
+		border: 1px solid var(--bright-200);
+		border-radius: 8px;
+		
+		span:first-child {
+			color: var(--white);
+			font-size: var(--h2);
+			display: block
+		}
+
+		span {
+			color: var(--bright-300);
+			font-size: var(--h3)
+		}
+
+	}
 
 
-
-
+}
 
 
 
