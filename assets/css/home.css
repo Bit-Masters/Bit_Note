@@ -1,8 +1,8 @@
 .HeaderContainer {
 	display:grid;
 	grid-template-columns: 16.875rem 1fr ;
-	flex-direction:row;
 	padding: var(--spc2);
+	border-bottom: 0.5px solid #B9BBBDB3;
 }
 
 .Options {
@@ -10,7 +10,17 @@
 	justify-content: space-between;
 
 	input {
+		flex-shrink: 1;
+		flex-grow: 0;
+		width: 100%;
 		max-width: 36.875rem;
+		margin-right: var(--spc8);
+
+		border: 1px solid var(--bright-100);
+		border-radius: 8px;
+		background-color: transparent;
+		color: var(--bright-100);
+		padding: 0 var(--spc5) ;
 	}
 }
 
@@ -26,3 +36,55 @@
 	background-color: var(--bright-500);
 	
 }
+
+.MainContainer {
+	display:grid;
+	grid-template-columns: 16.875rem 1fr ;
+}
+
+.NavBar {
+	padding: var(--spc5);
+
+	ul {
+		list-style-type: none;
+
+		li:first-child {
+			color: var(--bright-100);
+			margin-left: var(--spc2)
+		}
+	}
+
+	li {
+		margin-bottom: var(--spc6);
+		font-size: 20px;
+		color: var(--bright-500)
+	}
+}
+
+.ContentContainer {
+	display: flex;
+	flex-direction: column;
+
+	header {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
