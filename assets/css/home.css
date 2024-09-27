@@ -1,0 +1,28 @@
+.HeaderContainer {
+	display:grid;
+	grid-template-columns: 16.875rem 1fr ;
+	flex-direction:row;
+	padding: var(--spc2);
+}
+
+.Options {
+	display: flex;
+	justify-content: space-between;
+
+	input {
+		max-width: 36.875rem;
+	}
+}
+
+.Logo {
+	width: 34px;
+	height: 40px;
+	background-color: var(--bright-500);
+}
+
+.Settings {
+	width: 34px;
+	height: 40px;
+	background-color: var(--bright-500);
+	
+}
