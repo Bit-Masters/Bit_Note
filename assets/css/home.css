@@ -59,11 +59,72 @@
 }
 
 .Background {
-	display: none
+	position: none;
+
+
+	top:0;
+	right: 0;
+	background-color: rgba(31, 32, 33, 0.5);
+	z-index: 3;
+	height: 100%;
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .MarcadoresModal {
-	display: none
+	display: none;
+
+
+	z-index: 4;
+	width: 25rem;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;	
+
+	span {
+		padding: var(--spc3) var(--spc5);
+		box-sizing: border-box;	
+		border: 1px solid var(--bright-100);
+		background-color: var(--dark-500);
+		width: 100%;
+	}
+	span:first-child {
+		display: flex;
+		justify-content: space-between;
+		border-top-right-radius: 16px;
+		border-top-left-radius: 16px;
+		border-bottom: 0;
+	}
+
+	span:last-child {
+		border-bottom-left-radius: 16px;
+		border-bottom-right-radius: 16px;
+		border-top: 0
+	}
+		
+	table {
+		background-color: var(--dark-500);
+		border-collapse: collapse;	
+		th {
+			width: 12.5rem					
+		}
+		
+		th, td {
+			padding: var(--spc2) var(--spc3);
+			border: 1px solid var(--bright-100);
+		}
+	}
+	.Circle {
+		width: 16px;
+		height: 16px;
+		border: 0;
+		border-radius: 8px;
+		background-color: #0A99FF;
+	}
+		
 }
 
 
