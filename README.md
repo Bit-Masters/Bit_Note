@@ -15,9 +15,11 @@
 <br/>
 <h3>Rodar o projeto</h3>
 <span> Para rodar o projeto, tenha docker e docker-compose instalados</span>
-```
+
+```docker-compose
 docker-compose up -d --build
 ```
+
 <span>Apos basta acessar localhost:80</span>
  
 <h3>Tarefas:</h3>
