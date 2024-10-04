@@ -20,7 +20,7 @@
 docker-compose up -d --build
 ```
 
-<span>Apos basta acessar [localhost:80](https://localhost:80)</span>
+<span>Apos basta acessar [localhost:80](http://localhost:80)</span>
  
 <h3>Tarefas:</h3>
 - Frontend. (Raul)<br/>
