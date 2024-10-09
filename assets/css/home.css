@@ -59,8 +59,9 @@
 }
 
 .Background {
+	display: none;
 
-
+	position: fixed;
 
 	top:0;
 	right: 0;
@@ -69,14 +70,13 @@
 	height: 100%;
 	width: 100%;
 
-	display: flex;
+/*	display: flex;*/
 	justify-content: center;
 	align-items: center;
 }
 
 .MarcadoresModal {
-	display: flex;
-
+	display: none;
 
 	z-index: 4;
 	width: 25rem;
@@ -100,6 +100,7 @@
 	}
 
 	span:last-child {
+		display: flex;
 		border-bottom-left-radius: 16px;
 		border-bottom-right-radius: 16px;
 		border-top: 0
