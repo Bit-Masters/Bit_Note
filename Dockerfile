@@ -1,5 +1,11 @@
-FROM nginx:alpine
+FROM node:20-alpine
 
-COPY . /usr/share/nginx/html
+WORKDIR /app
 
-EXPOSE 80
+RUN npm install -g live-server
+
+COPY . .
+
+EXPOSE 8080
+
+CMD ["live-server", "--host=0.0.0.0", "--port=8080", "--open=0"]
