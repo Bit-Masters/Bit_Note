@@ -8,27 +8,53 @@
 		justify-content: space-between;
 		padding: var(--spc4);
 
-		button{
-			border: 1px solid #B9BBBD;
-			background-color: transparent;
-			color: var(--bright-100);
-			border-radius: 99px;
-			height: 32px;
-			width: 32px;
-		}
-		.AddList {
-			color: var(--white);
-			font-weight: bold;
-			font-size: 16px;
-			padding: var(--spc2) var(--spc3);
-			background-color: var(--Primary);
-
-			border: none;
-			width: auto;
-			height: auto;
-		}
 	}
 }
+
+.PrimaryButton {
+	border-radius: 99px;
+	text-align:center;
+	color: var(--white);
+	
+	font-weight: bold;
+	font-size: 16px;
+	padding: var(--spc2) var(--spc3);
+	background-color: var(--Primary);
+	opacity: 0.7;
+	
+	border: none;
+	width: auto;
+	height: auto;
+
+	transition: 0.3s opacity;
+}
+.PrimaryButton:hover {
+	opacity:1;
+	cursor: pointer;
+}
+
+.SecondaryButton {
+	border-radius: 99px;
+	text-align:center;
+	color: var(--white);
+	
+	font-weight: bold;
+	font-size: 16px;
+	padding: var(--spc2) var(--spc3);
+	background-color: transparent;
+	opacity: 0.7;
+	
+	border: 0.5px solid var(--white);
+	width: auto;
+	height: auto;
+
+	transition: opacity 0.3s
+}
+.SecondaryButton:hover {
+	opacity:1;
+	cursor: pointer;
+}
+
 
 .ListContainer {
 	padding: var(--spc1);
@@ -41,6 +67,8 @@
 		padding: var(--spc4) var(--spc5);
 		border: 1px solid var(--bright-200);
 		border-radius: 8px;
+		opacity: 0.666666;
+		transition: opacity 0.5s;
 		
 		span:first-child {
 			color: var(--white);
@@ -53,6 +81,11 @@
 			font-size: var(--h3)
 		}
 
+	}
+
+	div:hover {
+		opacity: 1;
+		cursor: pointer
 	}
 
 

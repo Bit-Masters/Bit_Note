@@ -48,15 +48,22 @@
 	ul {
 		list-style-type: none;
 
-		li:first-child {
+		.selected {
 			color: var(--white);
 			margin-left: var(--spc2)
 		}
 	}
 
 	li {
+		cursor:pointer;
 		margin-bottom: var(--spc6);
 		font-size: 20px;
-		color: var(--bright-500)
+		color: var(--bright-500);
+
+		transition: color 0.3s;
+	}
+
+	li:hover {
+		color: var(--white)
 	}
 }
