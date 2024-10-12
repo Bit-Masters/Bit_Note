@@ -1,7 +1,7 @@
 .HeaderContainer {
 	display:grid;
 	grid-template-columns: 16.875rem 1fr ;
-	padding: var(--spc2);
+	padding: var(--spc2) var(--spc3);
 	border-bottom: 0.5px solid #B9BBBDB3;
 }
 
@@ -22,19 +22,6 @@
 		color: var(--bright-100);
 		padding: 0 var(--spc5) ;
 	}
-}
-
-.Logo {
-	width: 34px;
-	height: 40px;
-	background-color: var(--bright-500);
-}
-
-.Settings {
-	width: 34px;
-	height: 40px;
-	background-color: var(--bright-500);
-	
 }
 
 .MainContainer {

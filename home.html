@@ -8,27 +8,30 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com" >
 		<link rel="preconnect" href="https://fonts.gstatic.com" >
 		<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" >
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
 	</head>
 	<body>
 		<header class="HeaderContainer">
-			<div class="Logo"></div>
+			<img class="Logo" src="assets/svg/logo.svg" />
 			<div class="Options">
 				<input type="text" placeholder="Pesquisar"></input>
-				<div class="Settings"></div>
+				<img class="Settings" src="assets/svg/settings.svg" />
 			</div>
 		</header>
 		<main class="MainContainer">
 			<nav class="NavBar">
 				<ul>
-					<li class="selected">Notas</li>
-					<li>Marcadores</li>
-					<li>Lixeira</li>
+					<li id="Notas">Notas</li>
+					<li id="Marcadores" >Marcadores</li>
+					<li id="Lixeira" >Lixeira</li>
 				</ul>
 			</nav>
 			<div class="ContentContainer">
 				<header>
-					<button class="PrimaryButton" id="AddList"><img src="assets/svg/add.svg" /> Adicionar</button>
-					<button class="SecondaryButton" id="Filter">filtro</button>
+					<button class="PrimaryButton" id="AddList">Adicionar</button>
+
+					<button class="SecondaryButton" id="Filter"><img src="assets/svg/sort.svg"/></button>
 				</header>
 				<div class="ListContainer">
 					<div>
@@ -50,9 +53,13 @@
 
 				</div>
 			</div>
-			<div class="Background">
-				<div class="MarcadoresModal">
-					<span>Marcadores<i>X</i></span>
+			<div class="Background" id="bkg" >
+				<div class="MarcadoresModal" id="mrcModal" onclick=>
+					<span>Marcadores
+						<button class="CloseButton" onclick="closeModal()" >
+							<img src="assets/svg/close.svg" ></img>
+						</button>
+					</span>
 					<table>
 						<thead>
 							<tr>
@@ -74,5 +81,6 @@
 			
 		</main>
 	</body>
+	<script type="text/javascript" src="assets/js/base.js" ></script>
 
 </html>
