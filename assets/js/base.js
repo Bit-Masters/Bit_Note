@@ -12,7 +12,16 @@ function changeClass(elm) {
 	if (elm.target == mrc_elm) {
 		document.getElementById('bkg').style.display = 'flex'
 		document.getElementById('mrcModal').style.display = 'flex'
+	}else if (elm.target == lix_elm) {
+		document.getElementById('HomeContainer').style.display = 'none'
+		document.getElementById('LixeiraContainer').style.display = 'flex'
+
+	} else if (elm.target == not_elm) {
+		document.getElementById('LixeiraContainer').style.display = 'none'
+		document.getElementById('HomeContainer').style.display = 'flex'
+
 	}
+
 	
 	var sel = document.getElementsByClassName('selected');
 	
@@ -29,12 +38,11 @@ lix_elm.addEventListener('click', function (e) {changeClass(e)})
 
 
 function closeModal() {
-	console.log('close')
+
 	document.getElementById('bkg').style.display = 'none'
 	document.getElementById('mrcModal').style.display = 'none'
 	not_elm.classList.add('selected');
 	mrc_elm.classList.remove('selected');
-
 	
 }
 
