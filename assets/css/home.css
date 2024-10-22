@@ -76,7 +76,7 @@
 	gap: var(--spc6);
 	
 
-	div{
+	.TaskContainer{
 		padding: var(--spc4) var(--spc5);
 		border: 1px solid var(--bright-200);
 		border-radius: 8px;
@@ -92,6 +92,19 @@
 		span {
 			color: var(--bright-300);
 			font-size: var(--h3)
+		}
+		
+		.ImageContainer {
+			display: flex;
+			flex-direction: row;
+			gap: 1.5rem;
+
+			img{
+				color: "#fffff";
+				font-size: 20px;
+				width: 20px;
+				height: 20px;	
+			}
 		}
 
 	}
