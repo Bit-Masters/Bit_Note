@@ -27,6 +27,7 @@
 .MainContainer {
 	display:grid;
 	grid-template-columns: 16.875rem 1fr ;
+	max-width: 100%
 }
 
 .NavBar {
